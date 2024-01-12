@@ -1,22 +1,26 @@
-h1{
-    font-family: 'Libre Baskerville', serif;
-    text-transform: uppercase;
-}
-*
-{
-    color: white;
-    background-color: black;
-}
-img
-{
-    border: 5px solid white;
-    width: 100%;
-}
-.a
-{
-    margin-top: 100px;
-    text-align: center;
-    width: 50%;
-    margin-left: 25%;
+/* Don't change the existing CSS. */
+
+.box {
+  background-color: blue;
+  padding: 10px;
 }
 
+p {
+  color: yellow;
+  margin: 0;
+  padding: 0;
+}
+.inner-box
+{
+  background-color: red;
+}
+.white-text
+{
+  color: white !important;
+  padding: 10px;
+  margin: 0;
+}
+#outer-box
+{
+  border: 10px solid purple;
+}
